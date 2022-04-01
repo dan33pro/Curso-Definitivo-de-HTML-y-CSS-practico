@@ -107,7 +107,7 @@ main .main-input-container {
 }
 
 main .main-input .search-icon {
-    background-image:image('./pict/lupa.png');
+    background-image: url(https://raw.githubusercontent.com/dan33pro/Curso-Definitivo-de-HTML-y-CSS-practico/master/clase2GoogleClone/pict/lupa.png);
     width: 20px;
     height: 20px;
 }
