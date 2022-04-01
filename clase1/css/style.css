@@ -104,6 +104,7 @@ main picture {
 
 #search-bar input {
     border: none;
+    outline: none; 
 }
 
 #search-bar img {

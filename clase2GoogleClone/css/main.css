@@ -1,0 +1,126 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#202124;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 48px;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: auto;
+    height: 32px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: white;
+}
+
+nav .nav-right-section .menu-icon {
+    /* background-image: url('https://cdn-icons-png.flaticon.com/128/3603/3603178.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+    width: 25px;
+    height: 25px;
+    margin: auto 15px;
+}
+
+nav .nav-right-section svg {
+    width: 25px;
+    height: 25px;
+    color: rgba(255,255, 255, 0.87);
+    filter: invert(100%);
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 272px;
+    height: 92px;
+    margin: 0 auto 25px;
+}
+
+main .main-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 35px;
+}
+
+main .main-input-container {
+    width: 90%;
+    max-width: 542px;
+    height: 44px;
+    border-radius: 100px;
+    border: 1px solid #5f6368;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.main-input-container input {
+    background-color: inherit;
+    outline: none;
+    border: none;
+}
+
+.main-input-container:hover {
+    background-color: #5f6368;
+    box-shadow: 0 0 2px 2px #171717;
+}
+
+main .main-input .search-icon {
+    background-image:image('./pict/lupa.png');
+    width: 20px;
+    height: 20px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    width: 22px;
+    height: 22px;
+}
+
+main .main-input .search-icon,
+main .main-input .micro-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
