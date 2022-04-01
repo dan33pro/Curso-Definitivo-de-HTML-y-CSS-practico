@@ -80,7 +80,7 @@ main .main-input {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 35px;
+    margin: 0 auto 25px;
 }
 
 main .main-input-container {
@@ -102,14 +102,15 @@ main .main-input-container {
 }
 
 .main-input-container:hover {
-    background-color: #5f6368;
-    box-shadow: 0 0 2px 2px #171717;
+    background-color: #303134;
+    border: none;
+    box-shadow: 0 1px 2px #171717;
 }
 
 main .main-input .search-icon {
-    background-image: url(https://raw.githubusercontent.com/dan33pro/Curso-Definitivo-de-HTML-y-CSS-practico/master/clase2GoogleClone/pict/lupa.png);
-    width: 20px;
-    height: 20px;
+    background-image: url('https://raw.githubusercontent.com/dan33pro/Curso-Definitivo-de-HTML-y-CSS-practico/master/clase2GoogleClone/pict/lupa.png');
+    width: 13px;
+    height: 13px;
 }
 
 main .main-input .micro-icon {
@@ -123,4 +124,83 @@ main .main-input .micro-icon {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+    margin: 5px;
+}
+
+main .main-buttons div button {
+    height: 36px;
+    background-color: #303134;
+    border: none;
+    color:rgb(226, 236, 236);
+    font-size: 14px;
+    padding: 0 15px;
+    border-radius: 4px;
+}
+
+main .main-info {
+    margin-top: 20px;
+    display: flex;
+}
+
+main .main-info div{
+    padding: 0 5px;
+    color:rgb(176, 196, 192);
+}
+
+main .main-info div a{
+    color:rgb(53, 203, 240);
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #171717;
+}
+
+footer .footer-region {
+    height: 48px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-region span{
+    color:rgba(176, 196, 192, 0.705);
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+footer .footer-nav {
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-nav .list-footer {
+    padding: 0;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+footer .footer-nav {
+    border-top: 1px solid rgba(176, 196, 192, 0.055);
+}
+
+footer .footer-nav .list-footer li{
+    color:rgba(176, 196, 192, 0.705);
+    font-size: 14px;
+    padding: 0 15px;
 }
