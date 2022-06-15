@@ -1,0 +1,152 @@
+:root {
+    --font-bg: 2rem;
+    --font-md: 1.3rem;
+    --font-sm: 1.2rem;
+    --black: #000;
+    --dark-gray: #5D6D7E;
+    --gray: #D5DBDB;
+    --light-gray: #F4F6F6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 10px 0;
+    width: 100%;
+    height: 5vh;
+}
+
+.nav-bar {
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.list-nav-bar {
+    position: absolute;
+    right: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.item-list-nav-bar {
+    padding: 5px;
+    margin: 0 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.list-nav-bar a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--font-md);
+}
+
+.menu{
+    width: 15px;
+    cursor: pointer;
+}
+
+.cuenta {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+main picture {
+    display: flex;
+    width: min-content;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-logo{
+    width: 30vw;
+    min-width: 350px;
+}
+
+#search-bar {
+    width: 50%;
+    min-width: 350px;
+    max-width: 550px;
+    height: 7%;
+    min-height: 40px;
+    border-radius: 20px;
+    border: 1px solid var(--gray);
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+#search-bar input {
+    border: none;
+    outline: none; 
+}
+
+#search-bar img {
+    width: 25px;
+}
+
+#options-container {
+    margin: 20px 0;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.primary-button {
+    padding: 10px;
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+}
+
+footer{
+    height: 5vh;
+    padding: 0 10px;
+    display: flex;
+    background-color: var(--light-gray);
+    justify-content: space-between;
+}
+
+.list-footer-nav {
+    display: flex;
+    list-style: none;
+}
+
+.item-footer-nav{
+    padding: 10px;
+}
+
+.item-footer-nav a {
+    font-size: var(--font-sm);
+    color: var(--dark-gray);
+    font-weight: bold;
+    text-decoration: none;
+}
